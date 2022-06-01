@@ -1,11 +1,26 @@
 ## Código para conectarse a la BD
 ``` php
 <?php
+/*
+================================
+Le indicamos el usuario, contraseña, 
+nombre de la BD y 
+la ip de nuestro servidor
+================================
+*/
 $contraseña = "contraseña";
 $usuario = "usuario";
 $nombreBaseDeDatos = "NombreBD";
 $rutaServidor = "localhost";
 try {
+/*
+================================
+Si todo sale bien establecemos 
+la conexión con los 
+datos indicados y si algo falla
+salta un error
+================================
+*/
     $base_de_datos = new PDO("sqlsrv:server=$rutaServidor;database=$nombreBaseDeDatos", $usuario, $contraseña);
     $base_de_datos->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
