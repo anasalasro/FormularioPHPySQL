@@ -1,6 +1,6 @@
 # Código para poder insertar datos desde el formulário a nuestra BD
 ## Este archivo se llamará insertar.php
-´´´ PHP
+``` php
 <?php
 /*
 ================================
@@ -70,4 +70,4 @@ if ($resultado === true) {
     echo "Algo salió mal. Por favor verifica que la tabla exista";
 }
 ?>
-´´´
+```
