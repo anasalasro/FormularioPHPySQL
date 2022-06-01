@@ -1,5 +1,5 @@
 # Código para eliminar registros insertados
-# Este archivo se llamará eliminar.php
+## Este archivo se llamará eliminar.php
 ```php
 <?php
 /*
