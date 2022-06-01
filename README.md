@@ -3,7 +3,7 @@
 ## 1.- Descripción
 
 ``` ruby
-En este repositorio encontraréis diferentes scripts interesantes
+Aquí encontraréis un formulario para enlazar con php una base de datos de SQL server.
 ```
 
 ## 2.- 🎮[ FRIKITRIVIAL ](https://github.com/anasalasro/Linux-Script/blob/main/frikitrivial.md)🎮
