@@ -1,5 +1,5 @@
 ## Código para el encabezado de nuestra página del formulario
-
+```html
 <!doctype html>
 <html lang="es">
 <!--
@@ -43,3 +43,4 @@ Plantilla inicial de Bootstrap 4
     </nav>
     <!-- Termina la definición del menú -->
     <main role="main" class="container">
+```
