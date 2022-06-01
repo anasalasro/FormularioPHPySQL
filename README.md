@@ -7,7 +7,7 @@ Aquí encontraréis un formulario para enlazar con php una base de datos de SQL 
 ```
 
 ## 2.- 🎮[ FRIKITRIVIAL ](https://github.com/anasalasro/Linux-Script/blob/main/frikitrivial.md)🎮
-[DESCARGAR FRIKITRIVIAL ](https://github.com/anasalasro/Linux-Script/blob/main/FRIKITRIVIAL.sh)
+[DESCARGAR FRIKITRIVIAL ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md)
 ## Referencias
 
 - [ :open_file_folder: ](https://jesusfernandeztoledo.com/introduccion-a-shell-script-relacion-1-ejercicios-resueltos/)  
