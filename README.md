@@ -1,4 +1,3 @@
-# FormularioPHPySQL💻
 ![logo](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Banner/banner.PNG)
 
 ## 1.- Descripción
