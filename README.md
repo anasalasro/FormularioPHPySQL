@@ -1,5 +1,5 @@
 # FormularioPHPySQL💻
-![logoLinux](https://github.com/anasalasro/Linux-Script/blob/main/ImagenesLinux/logoLinux4.png)
+![logo](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Banner/banner.PNG)
 
 ## 1.- Descripción
 
