@@ -1,5 +1,5 @@
 ## Código para conectarse a la BD
-``php
+``` php
 <?php
 $contraseña = "ana";
 $usuario = "ana";
@@ -13,3 +13,4 @@ try {
     echo "Ocurrió un error con la base de datos: " . $e->getMessage();
 }
 ?>
+```
