@@ -1,4 +1,6 @@
 ## Código para conectarse a la BD
+### Este archivo se llamará base_de_datos.php
+#### Le iremos haciendo referencias en los demás archivos php para comprobar la conexión.
 ``` php
 <?php
 /*
