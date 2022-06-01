@@ -1,6 +1,6 @@
 # Código para poder insertar datos desde el formulário a nuestra BD
 ## Este archivo se llamará insertar.php
-´´´php
+´´´ php
 <?php
 /*
 ================================
