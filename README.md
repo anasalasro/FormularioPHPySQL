@@ -6,8 +6,8 @@
 Aquí encontraréis un formulario para enlazar con php una base de datos de SQL server.
 ```
 ## Índice:
-1. [ Código del formulario ]
-    -.  [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md) 
+1. Código del formulario  
+    - [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md) 
 3. [ Htacces ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
 4. [ Cerbot ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/cerbot.md)  
 5. [ Bookmedik ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/bookmedik.md)
