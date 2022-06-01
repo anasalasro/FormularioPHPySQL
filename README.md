@@ -7,10 +7,11 @@ Aquí encontraréis un formulario para enlazar con php una base de datos de SQL 
 ```
 ## Índice:
 1. [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md)  
-2. [ Htacces ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
-3. [ Cerbot ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/cerbot.md)  
-4. [ Bookmedik ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/bookmedik.md)
-5. [ Balanceo de carga ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/balanceadornginx.md)
+    -.  [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md) 
+3. [ Htacces ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
+4. [ Cerbot ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/cerbot.md)  
+5. [ Bookmedik ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/bookmedik.md)
+6. [ Balanceo de carga ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/balanceadornginx.md)
 
 ## Licencia
 
