@@ -9,7 +9,7 @@ Aquí encontraréis un formulario para enlazar con php una base de datos de SQL 
 1. Código del formulario  
     - [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md) 
     - [ Encabezado de la Web ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Encabezado.md) 
-    - [ Página principal ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/CrearLista.md) 
+    - [ Página principal ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/index.md) 
     - [ Insertar registros ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/InsertarRegistro.md) 
     - [ Editar registros ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/EditarRegistro.md) 
     - [ Guardar los datos editados ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/GuardarDatosEditados.md) 
