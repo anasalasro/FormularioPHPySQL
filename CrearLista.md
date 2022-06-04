@@ -1,5 +1,5 @@
-# Código De la página principal donde se listarám los registros añadidos en la BD
-## Este archivo se llamará listar.php
+# Código De la página principal donde se listarám los registros de la BD
+## Este archivo se llamará CrearLista.php
 ```php
 /* CREACIÓN DE LA TABLA DE MASCOTAS */
 <?php
@@ -79,7 +79,8 @@ $mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
             </tbody>
         </table>
-   /*Cuando hacemos una busqueda que no contiene ninguna mascota nos aparecerá en la tabla un mensaje que dice: No se han encontrado mascotas*/
+   /*Cuando hacemos una busqueda que no contiene ninguna mascota 
+   nos aparecerá en la tabla un mensaje que dice: No se han encontrado mascotas*/
         <?php if (!$mascotas) { ?>
         <span class="ana-noencontrado">No se han encontrado mascotas</span>
         <?php   }?>
