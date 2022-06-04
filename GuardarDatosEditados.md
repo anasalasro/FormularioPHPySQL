@@ -3,7 +3,6 @@
 ```php
 /*UPDATE PARA LOS REGISTROS DE NUESTRA BASE DE DATOS*/
 <?php
-
 #Salir si alguno de los datos no está presente
 if (
     !isset($_POST["nombre"]) ||
