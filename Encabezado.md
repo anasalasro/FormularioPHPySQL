@@ -4,10 +4,8 @@
 <html lang="es">
 <!-- Este archivo define un encabezado que es
 incluido y reutilizado por otros archivos.
-
 Plantilla inicial de Bootstrap 4 
 -->
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +20,6 @@ Plantilla inicial de Bootstrap 4
     <link href="\Styles\style.css" rel="stylesheet">
     <script type="text/javascript" src="\Scripts\mascotas.js"></script>
 </head>
-
 <body>
     <main role="main" class="container">
 ```
