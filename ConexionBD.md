@@ -2,9 +2,13 @@
 ### Este archivo se llamará base_de_datos.php
 #### Le iremos haciendo referencias en los demás archivos php para comprobar la conexión.
 ``` php
-<!--Conexión a la base de datos -->
+//Conexión a la base de datos
 <?php
-//creamos las variables necesarias acceder a la base de datos, indicamos el usuario, contraseña, nombre de la BD y la ip (dns) de nuestro servidor
+
+/*creamos las variables necesarias acceder a la base de datos, 
+indicamos el usuario, contraseña, 
+nombre de la BD y la ip (dns) de nuestro servidor.*/
+
 $contraseña = "ana";
 $usuario = "ana";
 $nombreBaseDeDatos = "Mascotas";
