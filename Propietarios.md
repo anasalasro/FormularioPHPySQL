@@ -8,7 +8,8 @@ include_once "base_de_datos.php";
 $sentencia = $base_de_datos->query("select id, nombre, dni from propietario");
 $propietarios = $sentencia->fetchAll(PDO::FETCH_OBJ);
 ?>
-<!--Creamos el formulario desplegable que recorre nuestra base de datos buscando los propietarios registrados y los muestra en el desplegable.  -->
+<!--Creamos el formulario desplegable que recorre nuestra base de datos 
+buscando los propietarios registrados y los muestra en el desplegable. -->
 <select class="form-control" id="sel-propietarios">
     <!--Creamos la primera opción del desplegable para que sea por defecto una opción que no haga nada  -->
     <option value="-1" selected="selected">No Aplica</option>
