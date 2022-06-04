@@ -23,7 +23,9 @@
         <!-- Introducimos nuestro formulario y nuestra tabla en pestaña de mascotas -->
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="mascotas" role="tabpanel" aria-labelledby="mascotas-tab">
-                <!-- Creamos los botones de agregar, buscar, y limpiar llamando a sus respectivas funciones creadas en mascotas.js-->
+            
+                <!-- Creamos los botones de agregar, buscar, 
+                y limpiar llamando a sus respectivas funciones creadas en mascotas.js-->
                 <div class="container pt-3">
                     <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
                         <div class="btn-group mr-2" role="group" aria-label="First group">
@@ -49,7 +51,8 @@
                         <div class="input-group-prepend">
                             <div class="input-group-text" id="btnGroupAddon">Propietario</div>
                         </div>
-                        <!-- Llamamos a SelectPropietarios.php que nos crea un desplegable mostrando todos los propietarios registrado en nuestra BD-->
+                        <!-- Llamamos a SelectPropietarios.php que nos crea un desplegable 
+                        mostrando todos los propietarios registrado en nuestra BD-->
                         <?php include_once "SelectPropietarios.php" ?>
                     </div>
                     <!--Llamamos a nuestra tabla-->
@@ -67,7 +70,8 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="propietario" role="tabpanel"
                         aria-labelledby="propietario-tab">
-                        <!-- Creamos los botones de agregar, buscar, y limpiar llamando a sus respectivas funciones creadas en mascotas.js-->
+                        <!-- Creamos los botones de agregar, buscar
+                        y limpiar llamando a sus respectivas funciones creadas en mascotas.js-->
                         <div class="container pt-3">
                             <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
                                 <div class="btn-group mr-2" role="group" aria-label="First group">
@@ -77,7 +81,8 @@
                                     <button type="button" class="btn btn-secondary" onclick="Limpiar()">Limpiar</button>
                                 </div>
                             </div>
-                            <!-- Creamos los inputs de nuestro formulario donde escribirémos los datos de las mascotas y prpietario-->
+                            <!-- Creamos los inputs de nuestro formulario 
+                            donde escribirémos los datos de las mascotas y prpietario-->
                             <div class="input-group pt-3">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text" id="btnGroupAddon">Nombre</div>
