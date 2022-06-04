@@ -5,6 +5,7 @@
 ``` ruby
 Aquí encontraréis el código un formulario realizado con bootstrarp 4 
 para enlazar con php una base de datos de SQL server.
+Y los pasos a seguir para su correcto funcionamiento.
 ```
 ## Índice:
 1. Código del formulario  
