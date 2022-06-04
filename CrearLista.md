@@ -1,4 +1,4 @@
-# Código De la página principal donde se listarám los registros de la BD
+# Código De la página que contiene la tabla donde se listarán todos los registros de la BD
 ## Este archivo se llamará CrearLista.php
 ```php
 /* CREACIÓN DE LA TABLA DE MASCOTAS */
