@@ -40,11 +40,13 @@ con los datos sacados de la base de datos a través del id seleccionado.*/
 			<input type="hidden" name="id" value="<?php echo $mascota->id; ?>">
 			<div class="form-group">
 				<label for="nombre">Nombre</label>
-				<input value="<?php echo $mascota->nombre; ?>" required name="nombre" type="text" id="nombre" placeholder="Nombre de mascota" class="form-control">
+				<input value="<?php echo $mascota->nombre; ?>" required name="nombre"
+				type="text" id="nombre" placeholder="Nombre de mascota" class="form-control">
 			</div>
 			<div class="form-group">
 				<label for="edad">Edad</label>
-				<input value="<?php echo $mascota->edad; ?>" required name="edad" type="number" id="edad" placeholder="Edad de mascota" class="form-control" >
+				<input value="<?php echo $mascota->edad; ?>" required name="edad" 
+				type="number" id="edad" placeholder="Edad de mascota" class="form-control" >
 			</div>
 		<!-- El botón guardar llama a la función que nos comprueba si los datos que intentamos actualizar son correctos-->
 			<button type="submit" class="btn btn-outline-secondary" onclick="Comprobar(event)">Guardar</button>
