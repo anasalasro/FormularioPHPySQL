@@ -1,7 +1,6 @@
 # Código De la página principal donde se listarám los registros añadidos en la BD
 ## Este archivo se llamará listar.php
 ```php
-<?php
 /* CREACIÓN DE LA TABLA DE MASCOTAS */
 <?php
 //Llamamos a coneixón de la base de datos 
