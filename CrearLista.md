@@ -40,7 +40,8 @@ if (is_numeric($propietario) && $propietario > 0) {
     $filtro .= "id_propietario = " . $propietario;     
 }
 
-//Una vez comprobado todos los campos generamos la consulta pasandole al final nuestro filtro según las opciones elegidas en el formulario.
+/*Una vez comprobado todos los campos generamos la consulta 
+pasandole al final nuestro filtro según las opciones elegidas en el formulario.*/
 $sentencia = $base_de_datos->query("select id, nombre, edad, Propietario, dni from v_Mascotas" . $filtro);
 $mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
 ?>
