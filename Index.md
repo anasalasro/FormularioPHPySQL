@@ -1,7 +1,7 @@
 # Código De la página principal, aquí encontraremos tanto a las mascotas como a los propietarios y el formulario de registro y búsqueda
 ## Este archivo se llamará index.php
 ```php
-<!-- PÁGINA PRINCIPAL DEL FORMULARIO-->
+/*PÁGINA PRINCIPAL DEL FORMULARIO*/
 <?php include_once "encabezado.php" ?>
 <div class="row">
     <div class="col-12">
@@ -56,7 +56,8 @@
                     <script>
                     CrearLista();
                     </script>
-                    <!-- Creamos un contenedor vacío para que nuesta función de CrearLista en mascotas.js nos imprima la tabla con los resultados de las consultas-->
+                    <!-- Creamos un contenedor vacío para que nuesta función de CrearLista en mascotas.js 
+                    nos imprima la tabla con los resultados de las consultas-->
                     <div id="div-contenedor"></div>
                 </div>
 
@@ -94,14 +95,16 @@
                                 <div class="input-group-prepend">
                                     <div class="input-group-text" id="btnGroupAddon">Propietario</div>
                                 </div>
-                                <!-- Llamamos a SelectPropietarios.php que nos crea un desplegable mostrando todos los propietarios registrado en nuestra BD-->
+                                <!-- Llamamos a SelectPropietarios.php que nos crea un desplegable 
+                                mostrando todos los propietarios registrado en nuestra BD-->
                                 <?php include_once "SelectPropietarios.php" ?>
                             </div>
                             <!--Llamamos a nuestra tabla-->
                             <script>
                             CrearLista();
                             </script>
-                            <!-- Creamos un contenedor vacío para que nuesta función de CrearLista en mascotas.js nos imprima la tabla con los resultados de las consultas-->
+                            <!-- Creamos un contenedor vacío para que nuesta función de CrearLista en mascotas.js 
+                            nos imprima la tabla con los resultados de las consultas-->
                             <div id="div-contenedor"></div>
                         </div>
                     </div>
