@@ -1,7 +1,7 @@
 # Código para editar los registros insertados
 ## Este archivo se llamará editar.php
 ```php
-<!-- EDITAR UN REGISTRO DE NUESTRA BASE DE DATOS -->
+/*EDITAR UN REGISTRO DE NUESTRA BASE DE DATOS*/
 <?php
 /*
 Este archivo muestra un formulario 
