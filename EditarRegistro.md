@@ -7,7 +7,6 @@
 Este archivo muestra un formulario 
 a partir del ID del registro seleccionado para editar
 */
-
 //Comprobamos que el id esté selecionado
 if (!isset($_GET["id"])) {
     exit();
@@ -15,7 +14,9 @@ if (!isset($_GET["id"])) {
 //Mandamos el id a nuestra base de datos y llamamos a nuestra conexión
 $id = $_GET["id"];
 include_once "base_de_datos.php";
-//Creamos la consulta pasandole el id que hemos seleccionado para mostrarnos en nuestro formulario de la página editar.php los datos de la mascota seleciona
+/*Creamos la consulta pasandole el id que hemos seleccionado 
+para mostrarnos en nuestro formulario de la página editar.php 
+los datos de la mascota seleciona*/
 $sentencia = $base_de_datos->prepare("SELECT id, nombre, edad FROM mascotas WHERE id = ?;");
 $sentencia->execute([$id]);
 $mascota = $sentencia->fetchObject();
@@ -25,13 +26,16 @@ if (!$mascota) {
     exit();
 }
 
-#Si la mascota existe, se ejecuta esta parte del código que nos crea el formulario con los datos sacados de la base de datos a través del id seleccionado.
+/*Si la mascota existe, se ejecuta esta parte del código que nos crea el formulario 
+con los datos sacados de la base de datos a través del id seleccionado.*/
 ?>
 <?php include_once "encabezado.php"?>
 <div class="row">
 	<div class="col-12">
 		<h1>Editar</h1>
-		 <!-- Nos muestra el formulario si todos los datos están correctos y llamamos a guardarDatosEditados.php que es donde realizamos el update -->
+		 <!-- Nos muestra el formulario si todos los datos están correctos 
+		 y llamamos a guardarDatosEditados.php 
+		 que es donde realizamos el update -->
 		<form action="guardarDatosEditados.php" method="POST">
 			<input type="hidden" name="id" value="<?php echo $mascota->id; ?>">
 			<div class="form-group">
