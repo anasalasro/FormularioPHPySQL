@@ -1,4 +1,5 @@
-## Código para el encabezado de nuestra página del formulario
+# Código para el encabezado de nuestra página del formulario
+## Le iremos haciendo refenciás en las páginas que lo necesiten
 ```html
 <!doctype html>
 <html lang="es">
