@@ -24,20 +24,5 @@ Plantilla inicial de Bootstrap 4
 </head>
 
 <body>
-    <!-- Definición del menú 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary fixed-top">
-        <a class="navbar-brand" target="_blank" href="">Inicio</a>
-        <div class="collapse navbar-collapse" id="miNavbar">
-           <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./listar.php">Listar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./formulario.php">Agregar</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    Termina la definición del menú -->
     <main role="main" class="container">
 ```
