@@ -1,5 +1,5 @@
 # Script de la estructura de la base de datos
-
+```script
 USE [Mascotas]
 GO
 /****** TABLA DE PROPIETARIOS ******/
@@ -69,3 +69,4 @@ SELECT        m.id, m.nombre, m.edad, p.nombre AS Propietario, p.dni, m.id_propi
 FROM            dbo.mascotas AS m LEFT OUTER JOIN
                          dbo.propietario AS p ON m.id_propietario = p.id
 GO
+```
