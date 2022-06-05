@@ -1,5 +1,5 @@
 # Script de la estructura de la base de datos
-```script
+```sql
 USE [Mascotas]
 GO
 /****** TABLA DE PROPIETARIOS ******/
