@@ -56,7 +56,7 @@ ALTER TABLE [dbo].[mascotas] CHECK CONSTRAINT [FK_mascotas_propietario]
 GO
 
 /****** VISTA PARA UNIR AMBAS TABLAS ******/
-/****** Object:  View [dbo].[v_Mascotas]    Script Date: 05/06/2022 19:41:23 ******/
+/****** Object:  View [dbo].[v_Mascotas] ******/
 SET ANSI_NULLS ON
 GO
 
