@@ -8,7 +8,8 @@ para enlazar con php una base de datos de SQL server.
 Y los pasos a seguir para su correcto funcionamiento.
 ```
 ## Índice:
-1. Código del formulario  
+1. [ Estructura de la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/BaseDatosMascotas.md) 
+2. Código del formulario  
     - [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md) 
     - [ Encabezado de la Web ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Encabezado.md) 
     - [ Página principal ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/index.md) 
@@ -19,7 +20,7 @@ Y los pasos a seguir para su correcto funcionamiento.
     - [ Eliminar registros ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/EliminarRegistros.md) 
     - [ Propietarios ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Propietarios.md)  
 3. [ Pasos a seguir ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
-4. [ Presentación ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/cerbot.md)  
+5. [ Presentación ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/cerbot.md)  
 
 ## Referencias
 
