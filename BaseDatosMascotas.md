@@ -78,8 +78,8 @@ INSERT INTO [dbo].[propietario]
            ([nombre]
            ,[dni])
      VALUES
-           (Lola, 45226644S),
-		   (Juan, 45234655L);
+        	(Lola, 45226644S),
+		(Juan, 45234655L);
 GO
 
 /****** INSERTAR MASCOTAS ******/
