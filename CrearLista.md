@@ -40,9 +40,8 @@ if (is_numeric($propietario) && $propietario > 0) {
     $filtro .= "id_propietario = " . $propietario;     
 }
 
-/*Una vez comprobado todos los campos generamos la consulta 
-pasandole al final nuestro filtro según las opciones elegidas en el formulario.*/
-$sentencia = $base_de_datos->query("select id, nombre, edad, Propietario, dni from v_Mascotas" . $filtro);
+//Una vez comprobado todos los campos generamos la consulta pasandole al final nuestro filtro según las opciones elegidas en el formulario.
+$sentencia = $base_de_datos->query("select id, nombre, edad, Propietario, dni from v_Mascotas " . $filtro . "order by nombre");
 $mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
 ?>
 <!--Creamos nuestra tabla de mascotas recorriendo todos los datos de nuestra base de datos -->
@@ -80,8 +79,7 @@ $mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
             </tbody>
         </table>
-   /*Cuando hacemos una busqueda que no contiene ninguna mascota 
-   nos aparecerá en la tabla un mensaje que dice: No se han encontrado mascotas*/
+    <!--Cuando hacemos una busqueda que no contiene ninguna mascota nos aparecerá en la tabla un mensaje que dice: No se han encontrado mascotas-->
         <?php if (!$mascotas) { ?>
         <span class="ana-noencontrado">No se han encontrado mascotas</span>
         <?php   }?>
