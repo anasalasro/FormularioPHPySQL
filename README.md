@@ -25,8 +25,8 @@ Y los pasos a seguir para su correcto funcionamiento.
 
 ## Referencias
 
-- [ :open_file_folder: ](https://jesusfernandeztoledo.com/introduccion-a-shell-script-relacion-1-ejercicios-resueltos/)  
-- 
+- [ :open_file_folder: ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Referencias.md)  
+
 ## Licencia
 
 ![Licencia](https://github.com/anasalasro/Linux-Script/blob/main/ImagenesLinux/licencia.png)  
