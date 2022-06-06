@@ -1,6 +1,6 @@
 # Código para crear la tabla de los propietarios
 ```php
-<!-- CREACIÓN DE LA TABLA DE PROPIETARIOS -->
+/* CREACIÓN DE LA TABLA DE PROPIETARIOS */
 <?php
 //Llamamos a coneixón de la base de datos 
 include_once "base_de_datos.php";
@@ -27,7 +27,8 @@ if ($dni != "") {
     $filtro .= "dni like '%" . $dni . "%'";
 }
 
-//Una vez comprobado todos los campos generamos la consulta pasandole al final nuestro filtro según las opciones elegidas en el formulario.
+//Una vez comprobado todos los campos generamos la consulta 
+//pasandole al final nuestro filtro según las opciones elegidas en el formulario.
 $sentencia = $base_de_datos->query("select id, nombre, dni from propietario "  . $filtro . " order by nombre");
 $propietarios = $sentencia->fetchAll(PDO::FETCH_OBJ);
 ?>
@@ -66,7 +67,8 @@ $propietarios = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
             </tbody>
         </table>
-    <!--Cuando hacemos una busqueda que no contiene ninguna propietario nos aparecerá en la tabla un mensaje que dice: No se han encontrado propietarios-->
+    <!--Cuando hacemos una busqueda que no contiene ninguna propietario nos aparecerá 
+    en la tabla un mensaje que dice: No se han encontrado propietarios-->
         <?php if (!$propietarios) { ?>
         <span class="ana-noencontrado">No se han encontrado propietarios</span>
         <?php   }?>
