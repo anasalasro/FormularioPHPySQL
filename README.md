@@ -19,7 +19,7 @@ Y los pasos a seguir para su correcto funcionamiento.
     - [ Guardar los datos editados ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/GuardarDatosEditados.md) 
     - [ Eliminar registros ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/EliminarRegistros.md) 
     - [ Propietarios ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Propietarios.md)  
-3. [ Pasos a seguir ](https://github.com/anasalasro/ImplantacionAplicacionesWeb/blob/main/htaccess.md)
+3. [ Pasos a seguir ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ProyectoFinal-AnaSalas.pdf)
 5. [ Presentación ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Banner/Presentaci%C3%B3nProyectoAnaSalas.pdf)  
 6. [ Descarga del código completo ](https://github.com/anasalasro/FormularioPHPySQL/tree/main/CodigoCompleto) 
 
