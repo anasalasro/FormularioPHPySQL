@@ -1,4 +1,5 @@
 # Código para editar los registros de los propietarios
+```php
 /* EDITAR UN REGISTRO DE NUESTRA BASE DE DATOS */
 <?php
 /*
@@ -62,3 +63,4 @@ if (!$propietario) {
 </div>
 <!--Llamamos a pie.php que cierra todas las eqtiquetas de nuestro de html -->
 <?php include_once "pie.php"?>
+```
