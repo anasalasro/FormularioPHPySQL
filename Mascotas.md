@@ -1,4 +1,5 @@
 # Código de javascript para las diferentes funciones de nuestro formulario. Para que se ejecute la opción de agregar, buscar, crear las tablas y las comprobaciones correspondientes.
+## Este archivo se llamará mascotas.js
 ```javascript
 //#region Mascotas
 
