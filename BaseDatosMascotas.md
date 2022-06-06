@@ -71,4 +71,25 @@ SELECT        m.id, m.nombre, m.edad, p.nombre AS Propietario, p.dni, m.id_propi
 FROM            dbo.mascotas AS m LEFT OUTER JOIN
                          dbo.propietario AS p ON m.id_propietario = p.id
 GO
+
+/****** INSERTAR PROPIETARIOS ******/
+
+INSERT INTO [dbo].[propietario]
+           ([nombre]
+           ,[dni])
+     VALUES
+           (Lola, 45226644S),
+		   (Juan, 45234655L);
+GO
+
+/****** INSERTAR MASCOTAS ******/
+
+INSERT INTO [dbo].[mascotas]
+           ([nombre]
+           ,[edad]
+           ,[id_propietario])
+     VALUES
+        	('Sally', 3, 1),
+		('Balú', 2, 2);
+GO
 ```
