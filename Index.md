@@ -124,7 +124,7 @@
             </div>
 
             <script>
-            // Cambia de vista (Mascotas o Propietaios según el parámetro de la URL)
+            // Cambia de pestaña (Mascotas o Propietaios según el parámetro de la URL)
 
             var queryString = window.location.search;
             var urlParams = new URLSearchParams(queryString);
