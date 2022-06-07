@@ -13,7 +13,7 @@ como los pasos a seguir para su correcto funcionamiento.
 2. Código del formulario  
     - [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md) 
     - [ Encabezado de la Web ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Encabezado.md) 
-    - [ Página principal ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/index.md) 
+    - [ Página principal ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Index.md) 
     - [ Crear tabla ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/CrearLista.md) 
     - [ Crear tabla de Propietarios ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/CrearListaPropietarios.md)
     - [ Insertar registros ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/InsertarRegistro.md) 
