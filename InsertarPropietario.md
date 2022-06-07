@@ -1,4 +1,5 @@
-# Código para insertar un propietario en la BD
+# Código para insertar un propietario en la BD  
+## Este archivo se llamará insertarPropietario.php
 ```php
 <?php
 #Salir si alguno de los datos no están presentes
