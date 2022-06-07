@@ -10,7 +10,7 @@ como los pasos a seguir para su correcto funcionamiento.
 ```
 ## Índice:
 1. [ Estructura de la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/BaseDatosMascotas.md) 
-2. Código del formulario  
+2. [ Código del formulario ](https://github.com/anasalasro/FormularioPHPySQL/tree/main/CodigoCompleto)   
     - [ Conexión a la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ConexionBD.md) 
     - [ Encabezado de la Web ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Encabezado.md) 
     - [ Página principal ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Index.md) 
