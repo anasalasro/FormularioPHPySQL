@@ -1,4 +1,4 @@
-# Script de la estructura de la base de datos
+# Script de la estructura de la base de datos generado automáticamente por SQL Management Studio una vez creada la BD graficamente.
 ```sql
 USE [Mascotas]
 GO
@@ -16,6 +16,7 @@ CREATE TABLE [dbo].[propietario](
 	[dni] [char](9) NOT NULL,
  CONSTRAINT [PK_propietario] PRIMARY KEY CLUSTERED 
 (
+/****** Secuencia para los id de los propietarios ******/
 	[id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, 
 ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
@@ -43,6 +44,7 @@ CREATE TABLE [dbo].[mascotas](
 	[id_propietario] [bigint] NOT NULL,
  CONSTRAINT [PK__mascotas__3213E83FDEFBA5EA] PRIMARY KEY CLUSTERED 
 (
+/****** Secuencia para los id de las mascotas ******/
 	[id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON,
 OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
