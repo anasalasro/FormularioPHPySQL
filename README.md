@@ -3,9 +3,10 @@
 ## Descripción
 
 ``` ruby
-Aquí encontraréis el código un formulario realizado con bootstrarp 4 
-para enlazar con php una base de datos de SQL server.
-Y los pasos a seguir para su correcto funcionamiento.
+Aquí encontraréis todo lo necesario crear una conexión 
+dese una página web con un formulario PHP a una base de datos SQL Server.
+Tanto el código del formulario realizado con PHP, JavaScript y bootstrarp 4 
+como los pasos a seguir para su correcto funcionamiento.
 ```
 ## Índice:
 1. [ Estructura de la Base de Datos ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/BaseDatosMascotas.md) 
