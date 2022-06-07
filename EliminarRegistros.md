@@ -1,4 +1,4 @@
-# Código para eliminar registros insertados
+# Código para eliminar registros de las mascotas
 ## Este archivo se llamará eliminar.php
 ```php
 /*ELIMINAR UN REGISTRO DE NUESTRA BASE DE DATOS*/
