@@ -1,4 +1,5 @@
-# Código para hacer el update en la tabla de propietarios
+# Código para hacer el update en la tabla de propietarios  
+## Este archivo se llamará GuardarDatosEditadosPropietarios.php
 ```php
 <?php
 
