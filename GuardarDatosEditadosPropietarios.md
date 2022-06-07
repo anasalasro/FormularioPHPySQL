@@ -3,7 +3,7 @@
 ```php
 <?php
 
-#Salir si alguno de los datos no está presente
+#Salir si alguno de los datos no está definido
 if (
     !isset($_POST["nombre"]) ||
     !isset($_POST["dni"]) ||
