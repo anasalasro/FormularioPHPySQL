@@ -1,4 +1,5 @@
 # Código para editar los registros de los propietarios
+## Este archivo se llamará editarPropietario.php
 ```php
 /* EDITAR UN REGISTRO DE NUESTRA BASE DE DATOS */
 <?php
