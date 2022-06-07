@@ -27,7 +27,7 @@ como los pasos a seguir para su correcto funcionamiento.
     - [ Desplegable de Propietarios ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/SelectPropietarios.md)
     - [ Desplegable de Propietarios para editar ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/SelectPropietariosEditar.md)  
     - [ Pie de página ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Pie.md) 
-3. [ Desarrollo del Proyecto: Pasos a seguir ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/ProyectoFinal-AnaSalas.pdf)
+3. [ Desarrollo del Proyecto: Pasos a seguir ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Banner/ProyectoFinal-AnaSalas.pdf)
 5. [ Presentación ](https://github.com/anasalasro/FormularioPHPySQL/blob/main/Banner/Presentaci%C3%B3nProyecto-AnaSalas.pdf)  
 6. [ Descarga del código completo ](https://github.com/anasalasro/FormularioPHPySQL/tree/main/CodigoCompleto) 
 
