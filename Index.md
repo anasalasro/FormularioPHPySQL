@@ -1,4 +1,4 @@
-# Código De la página principal, aquí encontraremos tanto a las mascotas como a los propietarios y el formulario de registro y búsqueda
+# Código de la página principal, aquí encontraremos el formulario de registro y búsqueda dibidido en dos pestañas por las mascotas y los propietarios cada uno con sus datos y las opciones de editar y elimniar datos.
 ## Este archivo se llamará index.php
 ```php
 /*PÁGINA PRINCIPAL DEL FORMULARIO*/
