@@ -1,4 +1,5 @@
 # Código para crear la tabla de los propietarios
+## Este archivo se llamará CrearListaPropietarios.php
 ```php
 /* CREACIÓN DE LA TABLA DE PROPIETARIOS */
 <?php
