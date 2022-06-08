@@ -25,10 +25,7 @@ try{
     #execute regresa un booleano. True en caso de que todo vaya bien, falso en caso contrario.
     #Con eso comprobamos
 
-    if ($resultado === true) {
-            header("Location: index.php");
-    ?>
-    <?php
+    if ($resultado === false) {
     } else {
         echo "Algo salió mal. Por favor verifica que la tabla exista";
 }
