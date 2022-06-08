@@ -26,7 +26,6 @@ try{
     #Con eso comprobamos
 
     if ($resultado === false) {
-    } else {
         echo "Algo salió mal. Por favor verifica que la tabla exista";
 }
 //si la página nos devuelve un error de sql la modificamos para que nos aparezca 
