@@ -23,9 +23,7 @@ Creamos el insert y le pasamos las variables en el mismo orden
     #execute regresa un booleano. True en caso de que todo vaya bien, falso en caso contrario.
     #Con eso comprobamos
     
-    if ($resultado === true) {
-        header("Location: index.php?vista=propietarios");
-    } else {
+    if ($resultado === false) {
         echo "Algo salió mal. Por favor verifica que la tabla exista";
     }
 //si la página nos devuelve un error de sql la modificamos para que nos aparezca El DNI ya existe
