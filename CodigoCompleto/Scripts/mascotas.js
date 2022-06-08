@@ -56,7 +56,7 @@ function Agregar() {
                 $("#inp-edad").val("");
                 $("select#sel-propietarios").val("-1");
             //Imprimimos el resultado de nuestro nuevo registro añadido en la tabla de index.php
-                $("#div-contenedor").html(result); 
+                CrearLista(); 
             }
         }
     )
@@ -200,7 +200,7 @@ function AgregarPropietario() {
                 $("#inp-nombre-propietario").val("");
                 $("#inp-dni").val("");
             //Imprimimos el resultado de nuestro nuevo registro añadido en la tabla
-                $("#div-contenedor-propietarios").html(result); 
+                CrearListaPropietarios();
             }
         }
     )
